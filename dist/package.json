@@ -8,7 +8,7 @@
       "name": "alvin"
     }
   ],
-  "main": "dist/el-form-renderer.js",
+  "main": "el-form-renderer.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "dist": "cross-env DIST_ENV=true npm run build",
