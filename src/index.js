@@ -8,6 +8,8 @@ import _set from 'lodash.set'
 function clone (data) {
   if (Array.isArray(data)) {
     return data.map(clone)
+  } else if (data instanceof Blob || data instanceof File) {
+    return data
   } else if (data && typeof data === 'object') {
     let obj = Object.assign({}, data)
     for (let key in obj) {
