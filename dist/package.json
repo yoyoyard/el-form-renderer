@@ -8,7 +8,7 @@
       "name": "alvin"
     }
   ],
-  "main": "el-form-renderer.js",
+  "main": "dist/el-form-renderer.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "dist": "cross-env DIST_ENV=true npm run build",
@@ -34,7 +34,7 @@
     "url": "https://github.com/leezng/el-form-renderer/issues"
   },
   "peerDependencies": {
-    "element-ui": "^2.0.0",
+    "element-ui": "^2.7.2",
     "vue": "^2.5.2"
   },
   "devDependencies": {
